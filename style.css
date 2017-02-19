@@ -1,0 +1,47 @@
+.about {
+  color: gray;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  text-align: center;
+  background-color: teal;
+  color: white;
+  font-size: 30pt;
+  font-family: 'Roboto', sans-serif;
+  padding: 15px;
+}
+.tagline {
+  color: gray;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font: 12pt Helvetica;
+  justify-content: space-between;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+p {
+  margin: 0 auto;
+  height: 80px;
+  width: 20%;
+  color: gray;
+}
+
+p.padding {
+  background: #faebd7;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 5px;
+}
