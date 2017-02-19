@@ -8,7 +8,7 @@
   background-color: teal;
   color: white;
   font-size: 30pt;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 15px;
 }
 
@@ -19,6 +19,7 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
