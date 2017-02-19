@@ -11,9 +11,11 @@
   font-family: 'Roboto', sans-serif;
   padding: 15px;
 }
+
 .tagline {
   color: gray;
-  text-align: center;
+  text-align: left;
+  padding: 15px;
 }
 
 body {
@@ -31,6 +33,12 @@ main {
   justify-content: space-around;
 }
 
+links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 p {
   margin: 0 auto;
   height: 80px;
@@ -39,9 +47,10 @@ p {
 }
 
 p.padding {
-  background: #faebd7;
+  background: white;
   padding: 15px;
   margin: 0 auto;
   margin-top: 50px;
-  border-radius: 5px;
+  border-radius: 2px;
+  border: 0.1px solid gray;
 }
